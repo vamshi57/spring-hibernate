@@ -1,0 +1,29 @@
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" th:href="@{/CSS/demo.css}"/>
+<title>thyemeleaf Spring boot Demo</title>
+</head>
+<body>
+ <h1 th:text="'Time on server is '+${date}" class="funny"/>
+    <table border='1'>
+      <thead>
+        <tr>
+           <th>eno</th>
+          <th>ename</th>
+          <th>esalary</th>
+          <th>eaddr</th>
+        </tr>
+     </thead>
+     <tbody>
+     <!--  <tr th:each="listEmp:${emp}">
+        <tr th:text="${listEmp.getEno()}"/>
+        <tr th:text="${listEmp.getEname()}"/>
+        <tr th:text="${listEmp.getEsal()}"/>
+        <tr th:text="${listEmp.getEaddr()}"/>
+      </tr>  -->
+    </tbody>
+ 
+ </table>
+</body>
+</html>

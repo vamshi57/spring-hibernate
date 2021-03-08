@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+<bean id="base" class="com.vamshi.sp11.Car" abstract="true">
+  <property name="carName" value="tata"/>
+  <property name="registrationId" value="15TS021"/>
+</bean>
+<bean id="ram" class="com.vamshi.sp11.Car" parent="base">
+  <property name="color" value="red"/>
+  <property name="fuelType" value="petrol"/>
+</bean>
+<bean id="vam" class="com.vamshi.sp11.Car" parent="base">
+  <property name="color" value="blue"/>
+  <property name="fuelType" value="diesel"/>
+</bean>
+
+</beans>

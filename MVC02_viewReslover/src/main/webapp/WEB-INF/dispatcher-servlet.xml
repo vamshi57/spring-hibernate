@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+
+<!-- handler mapping -->
+ <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+ <property name="mappings">
+   <props>
+   <prop key="home.htm">hm</prop>
+    <prop key="coureses.htm">cs</prop>
+   </props>
+ </property>
+ <property name="interceptors">
+  <list>
+   <ref bean="t"/>
+  </list>
+ </property>
+</bean> 
+<!-- <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+<bean name="/home.htm" class="com.vamshi.controllers.HomeController" /> -->
+
+
+
+<!-- parameterized viewController -->
+<!-- <bean id="hm" class="com.vamshi.controllers.HomeController"/>   -->
+<bean id="t" class="com.vamshi.interceptor.TimeCheckInterceptor"></bean>
+<bean id="hm" class="org.springframework.web.servlet.mvc.ParameterizableViewController"> 
+<property name="viewName" value="home"></property>
+</bean>
+
+<bean id="cs" class="org.springframework.web.servlet.mvc.ParameterizableViewController">
+  <property name="viewName" value="coureses"/>
+</bean>
+
+
+
+
+<!-- viewResolver -->
+<bean id="vr" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+  <property name="prefix" value="/WEB-INF/pages/"/>
+  <property name="suffix" value=".jsp"/>
+</bean>
+
+
+
+</beans>

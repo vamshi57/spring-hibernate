@@ -1,0 +1,17 @@
+
+<html >
+<head>
+
+<title>hello facebook</title>
+</head>
+<body>
+<h3>hello <span th:text="${facebookProfile.name}">some user</span></h3>
+<h4>here is you feed</h4>
+   <div th:each="post:${feed}">
+      <b th:text="${post.from.name}">from</b>wrote
+      <b th:text="${post.message}">message text</b>wrote
+      <img th:if="${post.picture}" th:src="${post.picture}"></b>wrote
+   </div>
+
+</body>
+</html>

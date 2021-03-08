@@ -1,0 +1,14 @@
+package com.vamshi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringTxM06-DristributedSpringboot {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringTxM06-DristributedSpringboot.class, args);
+		System.out.println("hello spring boot");
+	}
+
+}

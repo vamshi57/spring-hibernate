@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+<!--target  -->
+<bean id="target" class="com.vamshi.service.ECommerceStore"/>
+
+<!--advice  -->
+<bean id="performanceAdvice" class="com.vamshi.advice.PerformanceMonitoringAspect"/>
+
+<bean id="cacheAdvice" class="com.vamshi.advice.CacheAdvice"/>
+
+<bean id="loggingAspect" class="com.vamshi.advice.AroundLoggingAspect">
+  <property name="cupon" value="3.0f"></property>
+</bean>
+
+<aop:config>
+   <aop:pointcut expression="execution(* com.vamshi.service.ECommerceStore.*(..))" id="ptc1"/>
+   
+   <!-- <aop:aspect ref="performanceAdvice">
+     <aop:around method="monitor" pointcut-ref="ptc1"/>
+   </aop:aspect> -->
+   
+<!--   <aop:aspect ref="cacheAdvice">
+    <aop:around method="cacheFeature" pointcut="execution(float com.vamshi.service.ECommerceStore.calc*(..))"/>
+  </aop:aspect> -->
+  
+  
+  <aop:aspect ref="loggingAspect">
+    <aop:around method="logging" pointcut-ref="ptc1"/>
+  </aop:aspect>
+  
+  
+</aop:config>
+
+
+
+</beans>

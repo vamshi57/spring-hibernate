@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans   xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	https://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
+	
+  <bean id="tp1" class="com.vamshi.travel.TourPlan">
+    <property name="places" >
+      <array>
+       <value>delhi</value>
+       <value>hyderabad</value>
+       <value>bangalore</value>
+      </array>
+    </property>
+  </bean>
+   <bean id="tp2" class="com.vamshi.travel.TourPlan" primary="true">
+    <property name="places">
+      <array>
+       <value>ooty</value>
+       <value>goa</value>
+       <value>Singapure</value>
+      </array>
+    </property>
+  </bean>
+  <!-- 
+ <bean id="ta" class="com.vamshi.travel.TravelAgent" autowire="byName"></bean> -->
+ <bean id="ta" class="com.vamshi.travel.TravelAgent" autowire="constructor"/> 
+</beans>

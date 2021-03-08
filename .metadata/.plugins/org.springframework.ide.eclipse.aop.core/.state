@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SecurityApp02-MVC-WelComePage"/>
+<aop-project name="SpringCore04-@Autowired"/>
+<aop-project name="SpringAspectJ10-Basic-AroundAdvice100p-java"/>
+<aop-project name="MVC17_100percent_MiniProject"/>
+<aop-project name="Springbootdemo02"/>
+<aop-project name="sp03"/>
+<aop-project name="MVC02_empsListAnno"/>
+<aop-project name="MVC01_empsList"/>
+<aop-project name="SpringCore08-Aware_injection_by_LookUpInjection"/>
+<aop-project name="Springbootdemo01"/>
+<aop-project name="sp02"/>
+<aop-project name="SpringAspectJ06-Basic-AroundAdvice-Annotation">
+<aspect-definition advice-class-name="com.vamshi.advice.AroundLoggingAspect" advice-method-name="logging" advice-type="AROUND" aspect-end-line-number="33" aspect-name="loggingAspect" aspect-start-line-number="33" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" pointcut-expression="execution(* com.vamshi.service.ECommerceStore.*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ06-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~addToCart~QProductDto;" target-start-line="11"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ06-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~showCart" target-start-line="18"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ06-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ06-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ06-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~calcBillAmount~F" target-start-line="24"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringJdbc05-CallBack-interface-ResultSetExtractor"/>
+<aop-project name="Rest01-Springboot"/>
+<aop-project name="S03-I18NSpring"/>
+<aop-project name="sp05"/>
+<aop-project name="MVC16_100percent_java"/>
+<aop-project name="MVC13_UploadFile"/>
+<aop-project name="Constructor"/>
+<aop-project name="MVC19_ExceptionPropagation-empsList"/>
+<aop-project name="SpringAspectJ01-Basic-AroundAdvice">
+<aspect-definition advice-class-name="com.vamshi.advice.AroundLoggingAspect" advice-method-name="logging" advice-type="AROUND" aspect-end-line-number="33" aspect-name="loggingAspect" aspect-start-line-number="33" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" pointcut-expression="execution(* com.vamshi.service.ECommerceStore.*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ01-Basic-AroundAdvice|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~calcBillAmount~F" target-start-line="24"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ01-Basic-AroundAdvice|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~showCart" target-start-line="18"/>
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ01-Basic-AroundAdvice|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:6|8:target:9" bean-file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="9" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ01-Basic-AroundAdvice/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="37" target="=SpringAspectJ01-Basic-AroundAdvice/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~addToCart~QProductDto;" target-start-line="11"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringCore14-SpringMVC-ServiceLocator"/>
+<aop-project name="MVCBoot03-Pagination"/>
+<aop-project name="SpringJdbc03-SpringBoot"/>
+<aop-project name="MVC12_InitBinder-date"/>
+<aop-project name="MVC05-AbstractCommandController-ListOfEmps"/>
+<aop-project name="SecurityApp01-NonMVC"/>
+<aop-project name="SpringJdbc06-BatchUpdate"/>
+<aop-project name="sp10"/>
+<aop-project name="SpringCore05-Stereotype_annotations"/>
+<aop-project name="SpringCore01-Autowired2"/>
+<aop-project name="MVC01"/>
+<aop-project name="MVC15_TilesFrameWork"/>
+<aop-project name="MVC06-SimpleFormController-CoronaPatientDetails"/>
+<aop-project name="SpringJdbc07-BatchUpdationNamedParameter"/>
+<aop-project name="MVC11_ReferenceData"/>
+<aop-project name="SpringJdbc04-CallBack-interface"/>
+<aop-project name="MVC08_empsList-PropertiesFilePlaceHolder"/>
+<aop-project name="SpringAspectJ09-AfterAdvice-gradle-Annotation">
+<aspect-definition advice-class-name="com.vamshi.aspect.DiscountCuponAdvice" advice-method-name="discountApply(org.aspectj.lang.JoinPoint, double)" advice-type="AFTER_RETURNING" aspect-end-line-number="21" aspect-name="discountCuponAdvice" aspect-start-line-number="21" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAspectJ09-AfterAdvice-gradle-Annotation/src/main/java/com/vamshi/cfgs/applicationContext.xml" pointcut-expression="execution(double com.vamshi.service.ShoppingStore.shopping(..))" proxy-target-class="false" returning="billAmt">
+<aop-reference advice-type="AFTER_RETURNING" bean="1:BeansModel|2:SpringAspectJ09-AfterAdvice-gradle-Annotation|3:src/main/java/com/vamshi/cfgs/applicationContext.xml|7:beans:8|8:serviceShopping:8" bean-file="/SpringAspectJ09-AfterAdvice-gradle-Annotation/src/main/java/com/vamshi/cfgs/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ09-AfterAdvice-gradle-Annotation/src/main/java/com/vamshi/cfgs/applicationContext.xml" source="=SpringAspectJ09-AfterAdvice-gradle-Annotation/src\/main\/java&lt;com.vamshi.aspect{DiscountCuponAdvice.java[DiscountCuponAdvice~discountApply~QJoinPoint;~D" source-start-line="15" target="=SpringAspectJ09-AfterAdvice-gradle-Annotation/src\/main\/java&lt;com.vamshi.service{ShoppingStore.java[ShoppingStore~shopping~\[QString;~\[D" target-start-line="10"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="S02-BeanScopeTest"/>
+<aop-project name="sp01"/>
+<aop-project name="MVC10_MiniProjectEmpList"/>
+<aop-project name="SpringAspectJ11-AfterAdvice-gradle-100Java"/>
+<aop-project name="SpringCore15-100pJavaWishApp"/>
+<aop-project name="MVC14_I18nWebApp"/>
+<aop-project name="SpringAspectJ03-Basic-BeforeAdvice"/>
+<aop-project name="SpringJdbc02-SpringBoot"/>
+<aop-project name="sp11"/>
+<aop-project name="SpringAspectJ04-Admin-Authored-admin-committed"/>
+<aop-project name="Springboot-mailApp01"/>
+<aop-project name="MVC02_viewReslover"/>
+<aop-project name="SpringBootCore01-WishApp"/>
+<aop-project name="Thymeleaf01-Springboot"/>
+<aop-project name="SpringAspectJ08-Admin-Authored-admin-committed-Annotation"/>
+<aop-project name="SpringAspectJ05-AfterAdvice-gradle">
+<aspect-definition advice-class-name="com.vamshi.aspect.DiscountCuponAdvice" advice-method-name="discountApply" advice-type="AFTER_RETURNING" aspect-end-line-number="15" aspect-name="aspect" aspect-start-line-number="14" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringAspectJ05-AfterAdvice-gradle/src/main/java/com/vamshi/cfgs/applicationContext.xml" pointcut-expression="execution(double com.vamshi.service.ShoppingStore.shopping(..))" proxy-target-class="false" returning="billAmt">
+<aop-reference advice-type="AFTER_RETURNING" bean="1:BeansModel|2:SpringAspectJ05-AfterAdvice-gradle|3:src/main/java/com/vamshi/cfgs/applicationContext.xml|7:beans:6|8:service:8" bean-file="/SpringAspectJ05-AfterAdvice-gradle/src/main/java/com/vamshi/cfgs/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ05-AfterAdvice-gradle/src/main/java/com/vamshi/cfgs/applicationContext.xml" source="=SpringAspectJ05-AfterAdvice-gradle/src\/main\/java&lt;com.vamshi.aspect{DiscountCuponAdvice.java[DiscountCuponAdvice~discountApply~QJoinPoint;~D" source-start-line="10" target="=SpringAspectJ05-AfterAdvice-gradle/src\/main\/java&lt;com.vamshi.service{ShoppingStore.java[ShoppingStore~shopping~\[QString;~\[D" target-start-line="8"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringCore06-LookUpInjection"/>
+<aop-project name="SpringTxM04-DistributedTx"/>
+<aop-project name="SpringAspectJ06-ThrowsAdvice">
+<aspect-definition advice-class-name="com.vamshi.advice.CommonExceptionLoggerAspect" advice-method-name="exceptionLogger" advice-type="AFTER_THROWING" aspect-end-line-number="16" aspect-name="advice" aspect-start-line-number="16" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" pointcut-expression="execution(float com.vamshi.service.ShoppingStore.calculateSingleProductBillAmt(..))" proxy-target-class="false" throwing="ex">
+<aop-reference advice-type="AFTER_THROWING" bean="1:BeansModel|2:SpringAspectJ06-ThrowsAdvice|3:src/main/java/com/vamshi/cfgs/applicationContext.xml|7:beans:6|8:service:12" bean-file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" source="=SpringAspectJ06-ThrowsAdvice/src\/main\/java&lt;com.vamshi.advice{CommonExceptionLoggerAspect.java[CommonExceptionLoggerAspect~exceptionLogger~QJoinPoint;~QException;" source-start-line="24" target="=SpringAspectJ06-ThrowsAdvice/src\/main\/java&lt;com.vamshi.service{ShoppingStore.java[ShoppingStore~calculateSingleProductBillAmt~F~F" target-start-line="5"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.vamshi.advice.CommonExceptionGrapher" advice-method-name="exceptionGraphing" advice-type="AFTER_THROWING" aspect-end-line-number="20" aspect-name="exAdvice" aspect-start-line-number="20" factory-id="org.springframework.ide.eclipse.aop.core.beanAspectDefinitionElementFactory" file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" pointcut-expression="execution(float com.vamshi.service.ShoppingStore.calculateSingleProductBillAmt(..))" proxy-target-class="false" throwing="iae">
+<aop-reference advice-type="AFTER_THROWING" bean="1:BeansModel|2:SpringAspectJ06-ThrowsAdvice|3:src/main/java/com/vamshi/cfgs/applicationContext.xml|7:beans:6|8:service:12" bean-file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" bean-start-line="12" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ06-ThrowsAdvice/src/main/java/com/vamshi/cfgs/applicationContext.xml" source="=SpringAspectJ06-ThrowsAdvice/src\/main\/java&lt;com.vamshi.advice{CommonExceptionGrapher.java[CommonExceptionGrapher~exceptionGraphing~QJoinPoint;~QIllegalAccessException;" source-start-line="9" target="=SpringAspectJ06-ThrowsAdvice/src\/main\/java&lt;com.vamshi.service{ShoppingStore.java[ShoppingStore~calculateSingleProductBillAmt~F~F" target-start-line="5"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="MVC01_viewReslover"/>
+<aop-project name="SpringTxM05-DistributedTx100java"/>
+<aop-project name="SpringCore09-Lookup_Method_Injection"/>
+<aop-project name="SpringTxM01-LocalAnnotation">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="16" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpringTxM01-LocalAnnotation#src/main/java/com/vamshi/cfgs/service-beans.xml#16" aspect-start-line-number="16" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpringTxM01-LocalAnnotation/src/main/java/com/vamshi/cfgs/service-beans.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringTxM01-LocalAnnotation|3:src/main/java/com/vamshi/cfgs/service-beans.xml|7:beans:10|8:bankService:10" bean-file="/SpringTxM01-LocalAnnotation/src/main/java/com/vamshi/cfgs/service-beans.xml" bean-start-line="10" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringTxM01-LocalAnnotation/src/main/java/com/vamshi/cfgs/service-beans.xml" source="=SpringTxM01-LocalAnnotation/C:\/Users\/vvkvr\/.gradle\/caches\/modules-2\/files-2.1\/org.springframework\/spring-tx\/5.2.7.RELEASE\/66faebf0da41c67b67d082efc98e92c40e83e6b\/spring-tx-5.2.7.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=SpringTxM01-LocalAnnotation/src\/main\/java&lt;com.vamshi.service{BankServiceImpl.java[BankServiceImpl~transaction~I~I~F" target-start-line="18"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="MVCBoot01-ShowHomePage"/>
+<aop-project name="SpringCore03-Init-and-DestroyMethods"/>
+<aop-project name="SpringCore16-100pNestedBeanFactory-containers"/>
+<aop-project name="SpringCore12-FactoryBeanAnnotation"/>
+<aop-project name="MVCBoot02-S_H-withoutRootAndWebmvc"/>
+<aop-project name="SpringJdbc09-SimpleJdbcCall"/>
+<aop-project name="SpringDataJpa01-Basic"/>
+<aop-project name="Batch02-springboot-csv-to-db"/>
+<aop-project name="Springboot01-socialFB"/>
+<aop-project name="S01-nestedBeanFactory-containers"/>
+<aop-project name="sp07"/>
+<aop-project name="SpringCore13-Method_InjectionAnnotation"/>
+<aop-project name="SpringJdbc01-JdbcTemplate"/>
+<aop-project name="Batch01-firstApp"/>
+<aop-project name="SpringCore11-FactoryBean"/>
+<aop-project name="SpringBootCore02-MiniProject"/>
+<aop-project name="sp06"/>
+<aop-project name="SpringCore10-Method_Injection"/>
+<aop-project name="MVC04-Annotation"/>
+<aop-project name="SpringAspectJ02-Basic-AroundAdvice-Springboot"/>
+<aop-project name="SpringBootCore03-MiniProject-profiles"/>
+<aop-project name="SpringJdbc08-SimpleJdbcInsert"/>
+<aop-project name="sp09"/>
+<aop-project name="SpringAop01-BasicApplication"/>
+<aop-project name="MVC07-SimpleFormController-CoronaPatientDetails-FormValidations"/>
+<aop-project name="SpringCore01-Autowired"/>
+<aop-project name="MVC03-Annotation"/>
+<aop-project name="SpringAspectJ12-Basic-AroundAdvice-Springboot"/>
+<aop-project name="SecurityApp03-MVC-100pWelComePage"/>
+<aop-project name="MVC18_100percent_MiniProject_Hibernate"/>
+<aop-project name="SpringTxM06-DistributedSpringboot"/>
+<aop-project name="SpringAspectJ07-Basic-AroundAdvice-Annotation">
+<aspect-definition advice-class-name="com.vamshi.advice.AroundLoggingAspect" advice-method-name="logging(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="logging" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" pointcut-expression="execution(float com.vamshi.service.ECommerceStore.calcBillAmount(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ07-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:8|8:ecommerce:8" bean-file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{AroundLoggingAspect.java[AroundLoggingAspect~logging~QProceedingJoinPoint;" source-start-line="46" target="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~calcBillAmount~F" target-start-line="27"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.vamshi.advice.PerformanceMonitoringAspect" advice-method-name="monitor(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="performance" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" pointcut-expression="execution(float com.vamshi.service.ECommerceStore.calcBillAmount(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ07-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:8|8:ecommerce:8" bean-file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{PerformanceMonitoringAspect.java[PerformanceMonitoringAspect~monitor~QProceedingJoinPoint;" source-start-line="15" target="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~calcBillAmount~F" target-start-line="27"/>
+</aspect-definition>
+<aspect-definition advice-class-name="com.vamshi.advice.CacheAdvice" advice-method-name="cacheFeature(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="10" aspect-name="cache" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" pointcut-expression="execution(float com.vamshi.service.ECommerceStore.calcBillAmount(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringAspectJ07-Basic-AroundAdvice-Annotation|3:src/main/java/com/vamshi/cfg/applicationContext.xml|7:beans:8|8:ecommerce:8" bean-file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringAspectJ07-Basic-AroundAdvice-Annotation/src/main/java/com/vamshi/cfg/applicationContext.xml" source="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.advice{CacheAdvice.java[CacheAdvice~cacheFeature~QProceedingJoinPoint;" source-start-line="19" target="=SpringAspectJ07-Basic-AroundAdvice-Annotation/src\/main\/java&lt;com.vamshi.service{ECommerceStore.java[ECommerceStore~calcBillAmount~F" target-start-line="27"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="sp08"/>
+<aop-project name="MVCProject"/>
+</aop-reference-model>

@@ -1,0 +1,21 @@
+drivername ="com.mysql.cj.jdbc.Driver"
+driver url=""jdbc:mysql://localhost:3306/bank?useSSL=false
+username="root"
+password="root"
+
+bank.bank_account
+
+accno int
+accholdername varchar
+balance float
+
+
+
+
+drivername ="oracle.jdbc.oracledriver.Driver"
+driver url="jdbc:oracle:thin:localhost@localhost:1521:xe
+username="system"
+password="root"
+
+
+

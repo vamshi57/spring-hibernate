@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+ 
+ <bean id="interestService" class="com.vamshi.service.InterestCalcImpl"/>
+ 
+ <bean id="advice1" class="com.vamshi.advice.PerformanceMonitoringAdvice"/>
+ 
+ <bean id="interestCut" class="com.vamshi.advice.InterestCutAdvice"/>
+ 
+ <bean id="loggingAdvice" class="com.vamshi.advice.LoggingAdvice"/>
+ 
+ <bean id="cacheAdvice" class="com.vamshi.advice.CacheAdvice"/>
+ 
+ 
+ <bean id="pt1" class="com.vamshi.pointcut.UserPt">
+   <property name="methodName" value="simpleInterest"/>
+   <property name="clazz" value="com.vamshi.service.InterestCalcImpl"></property>
+ </bean>
+ 
+ <bean id="advisor2" class="org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+  <property name="advice" ref="cacheAdvice"/>
+  <property name="mappedName" value="simpleInterest"></property>
+ </bean>
+ 
+ <bean id="advisor1" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+   <property name="pointcut" ref="pt1"></property>
+   <property name="advice" ref="cacheAdvice"></property>
+ </bean>
+ 
+ 
+ <bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+   <property name="target" ref="interestService"></property>
+   <property name="interceptorNames">
+     <list>
+      <!--  <value>advice1</value>
+       <value>loggingAdvice</value> -->
+     <!--<value>cacheAdvice</value>
+      <value>interestCut</value>-->
+      
+       <value>advisor2</value>
+     </list>
+   
+   </property>
+   
+ </bean>
+
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	https://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+		
+	<bean id="course" class="com.vamshi.beans.Course">
+	  <property name="id" value="102"/>
+	  <property name="fee" value="1000"/>
+	  <property name="name" value="java"/>
+	</bean>
+	
+	<bean id="course1" class="com.vamshi.beans.Course">
+	  <property name="id" value="103"/>
+	  <property name="fee" value="2000"/>
+	  <property name="name" value="Spring"/>  
+   </bean>
+
+<bean id="date" class="java.util.Date" >
+	  <property name="year" value="110"/>
+	  <property name="month" value="12"/>
+	  <property name="date" value="8"/>
+</bean>
+
+<bean id="std" class="com.vamshi.beans.Student">
+ <property name="sid" value="101"/>
+ <property name="sname" value="vamshi"/>
+</bean>
+	
+	<context:annotation-config/>
+	<context:component-scan base-package="com.vamshi.beans"/>
+  
+</beans>

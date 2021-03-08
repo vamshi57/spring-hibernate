@@ -1,0 +1,2 @@
+2020-07-24-main-0-ERROR-com.vamshi.advice.CommonExceptionLoggerAspect:java.lang.IllegalAccessException: Invalid inputs exception is raised in  float com.vamshi.service.ShoppingStore.calculateSingleProductBillAmt(float,float) method with args[-1.0, 10.0]
+  
